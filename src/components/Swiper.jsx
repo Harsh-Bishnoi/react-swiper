@@ -34,12 +34,12 @@ const Card_Swiper = () => {
                                         <p className='font-family-primary whitespace-nowrap text-[#00171F] text-2xl xl:text-[32px] font-normal leading-[110%]'>{item.number}</p>
                                         <p className='font-family-primary whitespace-nowrap text-[#00171F] text-2xl xl:text-[32px] font-normal leading-[110%]'>{item.text}</p>
                                     </div>
-                                    <img className='w-full ' src={item.img} alt={item.text} />
+                                    <img className='w-full' src={item.img} alt={item.text} />
                                     <div className="absolute inset-0 translate-y-[0px] group-hover:translate-y-[-100%] opacity-94 bg-[#E8F6FD] transition-all duration-200 ease-linear"></div>
                                     <div className="bg-[#003459] p-4 sm:p-8 min-h-[217px] absolute bottom-0 group-hover:translate-y-0 transition-all duration-200 ease-linear translate-y-[105%] ">
                                         <div className="flex gap-2 mb-3.5">
-                                            <h2 className='font-family-primary font-normal text-[24px] md:text-[30px] leading-[110%] capitalize text-white'>{item.number}</h2>
-                                            <h3 className='font-family-primary font-normal text-[24px] md:text-[30px] leading-[110%] capitalize text-white'>{item.text}</h3>
+                                            <h2 className='font-family-primary font-normal text-[24px] xl:text-[28px] 2xl:text-[32px] leading-[110%] capitalize text-white'>{item.number}</h2>
+                                            <h3 className='font-family-primary font-normal text-[24px] xl:text-[28px] 2xl:text-[32px] leading-[110%] capitalize text-white'>{item.text}</h3>
                                         </div>
                                         <p className='font-family-primary text-base leading-[160%] text-white'>{item.description}</p>
                                     </div>
