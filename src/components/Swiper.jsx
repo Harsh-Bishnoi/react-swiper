@@ -15,7 +15,7 @@ const Card_Swiper = () => {
                         onSwiper={(swiper) => console.log(swiper)}
                         breakpoints={{
                             0: {
-                                slidesPerView: 1,
+                                slidesPerView: 1, 
                             },
                             540: {
                                 slidesPerView: 2,
